@@ -2,4 +2,4 @@
 A, B = map(int, input().split())
 
 # output
-print(A + B)
+print(A - B)
