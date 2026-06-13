@@ -76,6 +76,12 @@
 | 1717 | [notes/2026-06-12-유니온파인드.md](notes/2026-06-12-유니온파인드.md) | 집합의 표현 |
 | 1976 | [notes/2026-06-12-유니온파인드.md](notes/2026-06-12-유니온파인드.md) | 여행 가자 |
 
+### 위상정렬 (Topological Sort)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 2252 | [notes/2026-06-13-위상정렬.md](notes/2026-06-13-위상정렬.md) | 줄 세우기 |
+| 1766 | [notes/2026-06-13-위상정렬.md](notes/2026-06-13-위상정렬.md) | 문제집 |
+
 ---
 
 ## 복습 노트
@@ -245,6 +251,36 @@ def union(a, b):
 ```
 
 자세한 설명: [notes/2026-06-12-유니온파인드.md](notes/2026-06-12-유니온파인드.md)
+
+---
+
+### 위상정렬 (Topological Sort)
+
+| 문제 | 핵심 |
+|------|------|
+| 2252 줄 세우기 | 기본형. `indegree==0` 부터 `deque`로 꺼내며 이웃 차수 감소 |
+| 1766 문제집 | "번호 작은 것 우선" → `deque` 대신 `heapq`(최소 힙) 사용 |
+
+- **DAG(사이클 없는 방향 그래프)** 전용. "A를 B보다 먼저" 같은 순서 제약 문제의 도구
+- **진입차수(indegree) 0 = 지금 처리 가능한 노드**. 꺼내며 이웃 차수를 깎아나감
+- 시간복잡도 **O(V+E)** (힙 쓰면 O((V+E) log V))
+- **사이클 판정**: 정렬 결과 노드 수 `< N` 이면 사이클 존재 → 위상정렬 불가
+
+```python
+from collections import deque
+queue = deque(i for i in range(1, N+1) if indegree[i] == 0)
+order = []
+while queue:
+    cur = queue.popleft()
+    order.append(cur)
+    for nxt in graph[cur]:
+        indegree[nxt] -= 1
+        if indegree[nxt] == 0:
+            queue.append(nxt)
+# len(order) != N 이면 사이클
+```
+
+자세한 설명: [notes/2026-06-13-위상정렬.md](notes/2026-06-13-위상정렬.md)
 
 ---
 
