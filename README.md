@@ -9,60 +9,60 @@
 ### 기본 입출력
 | 번호 | 파일 | 문제 제목 |
 |------|------|-----------|
-| 1000 | [io-1000.py](io-1000.py) | A+B |
-| 1001 | [io-1001.py](io-1001.py) | A-B |
+| 1000 | [io-1000.py](examples/io-1000.py) | A+B |
+| 1001 | [io-1001.py](examples/io-1001.py) | A-B |
 
 ### 문자열
 | 번호 | 파일 | 문제 제목 |
 |------|------|-----------|
-| 1032 | [string-1032.py](string-1032.py) | 명령 프롬프트 |
-| 1157 | [string-1157.py](string-1157.py) | 단어 공부 |
-| 1259 | [string-1259.py](string-1259.py) | 팰린드롬수 |
+| 1032 | [string-1032.py](examples/string-1032.py) | 명령 프롬프트 |
+| 1157 | [string-1157.py](examples/string-1157.py) | 단어 공부 |
+| 1259 | [string-1259.py](examples/string-1259.py) | 팰린드롬수 |
 
 ### 수학 / 완전탐색
 | 번호 | 파일 | 문제 제목 |
 |------|------|-----------|
-| 1037 | [math-1037.py](math-1037.py) | 약수 |
-| 1145 | [bruteforce-1145.py](bruteforce-1145.py) | 적어도 대부분의 배수 |
+| 1037 | [math-1037.py](examples/math-1037.py) | 약수 |
+| 1145 | [bruteforce-1145.py](examples/bruteforce-1145.py) | 적어도 대부분의 배수 |
 
 ### 그리디 / 시뮬레이션 / 구현
 | 번호 | 파일 | 문제 제목 |
 |------|------|-----------|
-| 1080 | [greedy-1080.py](greedy-1080.py) | 행렬 |
-| 1110 | [simulation-1110.py](simulation-1110.py) | 더하기 사이클 |
-| 1236 | [greedy-1236.py](greedy-1236.py) | 성 지키기 |
-| 1292 | [implementation-1292.py](implementation-1292.py) | 쉽게 푸는 문제 |
+| 1080 | [greedy-1080.py](examples/greedy-1080.py) | 행렬 |
+| 1110 | [simulation-1110.py](examples/simulation-1110.py) | 더하기 사이클 |
+| 1236 | [greedy-1236.py](examples/greedy-1236.py) | 성 지키기 |
+| 1292 | [implementation-1292.py](examples/implementation-1292.py) | 쉽게 푸는 문제 |
 
 ### 스택 / 큐 / 힙
 | 번호 | 파일 | 문제 제목 |
 |------|------|-----------|
-| 1874 | [stack-1874.py](stack-1874.py) | 스택 수열 |
-| 9012 | [stack-9012.py](stack-9012.py) | 괄호 |
-| 1966 | [queue-1966.py](queue-1966.py) | 프린터 큐 |
-| 11286 | [heap-11286.py](heap-11286.py) | 절댓값 힙 |
+| 1874 | [stack-1874.py](examples/stack-1874.py) | 스택 수열 |
+| 9012 | [stack-9012.py](examples/stack-9012.py) | 괄호 |
+| 1966 | [queue-1966.py](examples/queue-1966.py) | 프린터 큐 |
+| 11286 | [heap-11286.py](examples/heap-11286.py) | 절댓값 힙 |
 
 ### 이분탐색
 | 번호 | 파일 | 문제 제목 |
 |------|------|-----------|
-| 1920 | [binary-1920.py](binary-1920.py) | 수 찾기 |
-| 2805 | [binary-2805.py](binary-2805.py) | 나무 자르기 |
-| 1300 | [binary-1300.py](binary-1300.py) | K번째 수 |
+| 1920 | [binary-1920.py](examples/binary-1920.py) | 수 찾기 |
+| 2805 | [binary-2805.py](examples/binary-2805.py) | 나무 자르기 |
+| 1300 | [binary-1300.py](examples/binary-1300.py) | K번째 수 |
 
 ### BFS / DFS
 | 번호 | 파일 | 문제 제목 |
 |------|------|-----------|
-| 1260 | [bfs_dfs-1260.py](bfs_dfs-1260.py) | DFS와 BFS |
-| 2178 | [bfs-2178.py](bfs-2178.py) | 미로 탐색 |
-| 2206 | [bfs-2206.py](bfs-2206.py) | 벽 부수고 이동하기 |
-| 7569 | [bfs-7569.py](bfs-7569.py) | 토마토 (3차원) |
+| 1260 | [bfs_dfs-1260.py](examples/bfs_dfs-1260.py) | DFS와 BFS |
+| 2178 | [bfs-2178.py](examples/bfs-2178.py) | 미로 탐색 |
+| 2206 | [bfs-2206.py](examples/bfs-2206.py) | 벽 부수고 이동하기 |
+| 7569 | [bfs-7569.py](examples/bfs-7569.py) | 토마토 (3차원) |
 
 ### 다이나믹 프로그래밍
 | 번호 | 파일 | 문제 제목 |
 |------|------|-----------|
-| 1463 | [dp-1463.py](dp-1463.py) | 1로 만들기 |
-| 2193 | [dp-2193.py](dp-2193.py) | 이친수 |
-| 9251 | [dp-9251.py](dp-9251.py) | LCS |
-| 12865 | [dp-12865.py](dp-12865.py) | 평범한 배낭 |
+| 1463 | [dp-1463.py](examples/dp-1463.py) | 1로 만들기 |
+| 2193 | [dp-2193.py](examples/dp-2193.py) | 이친수 |
+| 9251 | [dp-9251.py](examples/dp-9251.py) | LCS |
+| 12865 | [dp-12865.py](examples/dp-12865.py) | 평범한 배낭 |
 
 ### 그래프 최단경로 (다익스트라)
 | 번호 | 노트 | 문제 제목 |
