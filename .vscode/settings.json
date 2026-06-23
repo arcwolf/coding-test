@@ -1,0 +1,14 @@
+{
+  // 코딩테스트 연습용: 자동완성/추천 기능 끄기 (직접 타이핑 연습)
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.parameterHints.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.tabCompletion": "off",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.wordBasedSuggestions": "off"
+}
