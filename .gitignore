@@ -1,0 +1,6 @@
+# 연습용 작업 공간 (일회용 scratchpad) — 보관할 풀이는 examples/로 승격
+solution.py
+
+# Python 캐시
+__pycache__/
+*.pyc
