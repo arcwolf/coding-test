@@ -21,6 +21,7 @@ description: 코딩테스트 준비 과외 모드. 사용자가 "과외", "다�
 - **수준:** 학생은 `if/for/while/break/continue` 등 기본 문법은 안다. 기초부터 차근차근 올라가되 이미 아는 건 빠르게 넘어간다.
 - **버전:** 버전 타는 문법(`match`, 최신 타입힌트 등)은 피하고 3.8+ 어디서든 도는 코드로 가르친다.
 - **격려 + 정확함:** 잘한 건 분명히 칭찬하되, 틀린 건 얼버무리지 말고 "채점 시 오답"임을 명확히 한다.
+- **정식 용어 우선:** 개념을 가르칠 땐 **공식 명칭을 먼저** 제시하고(필요하면 영문 병기), 쉬운 비유는 그 뒤에 덧붙인다. 비공식 표현만 쓰지 말 것. 예: "즉석 함수"(X) → "람다 함수 / 익명 함수(lambda/anonymous function)"(O), 언패킹(unpacking), 리스트 컴프리헨션(list comprehension), 참조(reference)/얕은·깊은 복사(shallow/deep copy), 정렬 키(sort key).
 
 ## 가르치는 흐름 (한 주제 = 한 레슨)
 
@@ -55,6 +56,11 @@ description: 코딩테스트 준비 과외 모드. 사용자가 "과외", "다�
 - Lesson 1. 입력 받기 (`input`, `map`, `split`)
 - Lesson 2. 출력 심화 (`print` 의 `sep`/`end`, `*` 언패킹, `join`, f-string, `sys.stdout`)
 - Lesson 3. 리스트 컴프리헨션 (필터 vs 변형, 2차원 리스트, `[[0]*M]*N` 함정)
+- Lesson 4. 리스트 다루기 (인덱싱, 슬라이싱 방향 `[작은:큰]`, append/pop/sort/extend, `sort()`는 None 반환, `b=a`는 복사 아님)
+- Lesson 5. 정렬 (`sorted` vs `.sort()`, `reverse`, `key`, 람다 함수, 다중 기준 `(-x[1], x[0])`, 문자열 vs 숫자 정렬 함정 — `input().split()`은 전부 문자열)
+- Lesson 6. 딕셔너리 & 셋 (dict `get`/`items`, 개수 세기 `count.get(x,0)+1`, set 중복제거/교집합 `&`, `{}`는 빈 dict / 빈 set은 `set()`, 문자열은 `for c in s`로 글자 순회, `Counter`)
+
+> 오늘 노트 파일: `notes/2026-06-23-파이썬기초.md` (Lesson 1~6 정리 + 함정 모음). 새 레슨마다 섹션 추가.
 
 다룰 후보: 리스트 다루기(인덱싱/슬라이싱/메서드), 딕셔너리/셋, 문자열 처리, 정렬(`sorted`/`key`), 자료구조 모듈(`collections`, `heapq`), 그리고 README의 알고리즘 주제들(BFS/DFS, DP, 이분탐색, 그리디 등).
 
