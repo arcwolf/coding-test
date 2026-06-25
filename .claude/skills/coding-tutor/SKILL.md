@@ -59,8 +59,10 @@ description: 코딩테스트 준비 과외 모드. 사용자가 "과외", "다�
 - Lesson 4. 리스트 다루기 (인덱싱, 슬라이싱 방향 `[작은:큰]`, append/pop/sort/extend, `sort()`는 None 반환, `b=a`는 복사 아님)
 - Lesson 5. 정렬 (`sorted` vs `.sort()`, `reverse`, `key`, 람다 함수, 다중 기준 `(-x[1], x[0])`, 문자열 vs 숫자 정렬 함정 — `input().split()`은 전부 문자열)
 - Lesson 6. 딕셔너리 & 셋 (dict `get`/`items`, 개수 세기 `count.get(x,0)+1`, set 중복제거/교집합 `&`, `{}`는 빈 dict / 빈 set은 `set()`, 문자열은 `for c in s`로 글자 순회, `Counter`)
+- Lesson 7. 문자열 처리 (`ord`/`chr`, 시저 암호 `%26`, 메서드는 새 문자열 반환→재할당, 불변(immutable), 회문 `s==s[::-1]`, a~z 26칸 카운팅)
+- Lesson 8. 자료구조 모듈 (`deque` popleft=BFS 큐, 함수명 `heapq.heappush`/`heappop`(push 아님), 최대힙=음수 트릭, 튜플 `(우선순위,값)`, K개는 K번만 pop)
 
-> 오늘 노트 파일: `notes/2026-06-23-파이썬기초.md` (Lesson 1~6 정리 + 함정 모음). 새 레슨마다 섹션 추가.
+> 노트 파일: `notes/2026-06-23-파이썬기초.md` (Lesson 1~7 정리 + 함정 모음). 새 레슨마다 섹션 추가.
 
 다룰 후보: 리스트 다루기(인덱싱/슬라이싱/메서드), 딕셔너리/셋, 문자열 처리, 정렬(`sorted`/`key`), 자료구조 모듈(`collections`, `heapq`), 그리고 README의 알고리즘 주제들(BFS/DFS, DP, 이분탐색, 그리디 등).
 
