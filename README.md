@@ -344,6 +344,8 @@ grid = [list(input().strip()) for _ in range(n)]
 | 2805 나무 자르기 | 파라메트릭 서치. `is_valid(mid)`: 얻는 나무 합 >= M. 최댓값 탐색이므로 가능하면 lo↑ |
 | 1300 K번째 수 | `count_le(mid) = sum(min(mid//i, N))`. 개수 >= K이면 hi↓, ans 갱신 |
 
+> 심화 노트: [2026-07-17-이분탐색-파라메트릭서치.md](notes/2026-07-17-이분탐색-파라메트릭서치.md) — 단조성 정당성 · 경계 처리 · `bisect` 내부 · 부동소수점 이분탐색
+
 **이분탐색 템플릿**
 ```python
 lo, hi = 0, max_val
