@@ -335,6 +335,11 @@
 |------|------|-----------|
 | - | [notes/2026-07-28-SOS-DP-부분집합합.md](notes/2026-07-28-SOS-DP-부분집합합.md) | 부분집합/초집합 합 집계 (하이퍼큐브 접두합, O(N·2^N)) |
 
+### DSU on tree (Small to Large / Sack)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| - | [notes/2026-07-29-DSU-on-tree-Small-to-Large.md](notes/2026-07-29-DSU-on-tree-Small-to-Large.md) | 서브트리 집계 오프라인 질의 (지배 색 합·distinct, O(N log N)) |
+
 ---
 
 ## 복습 노트
