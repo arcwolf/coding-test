@@ -362,6 +362,12 @@
 | 11266 | [notes/2026-08-02-단절점과단절선.md](notes/2026-08-02-단절점과단절선.md) | 단절점 (DFS lowlink, low[v]>=order[u], O(V+E)) |
 | 11400 | [notes/2026-08-02-단절점과단절선.md](notes/2026-08-02-단절점과단절선.md) | 단절선 (DFS lowlink, low[v]>order[u], O(V+E)) |
 
+### 삼분탐색 (Ternary Search / 단봉함수 극값)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 11662 | [notes/2026-08-03-삼분탐색-Ternary-Search.md](notes/2026-08-03-삼분탐색-Ternary-Search.md) | 민식이의 여행 (거리 볼록함수, 실수 삼분탐색, O(200)) |
+| 8986 | [notes/2026-08-03-삼분탐색-Ternary-Search.md](notes/2026-08-03-삼분탐색-Ternary-Search.md) | 전봇대 (합 볼록, d 삼분탐색, O(200·N)) |
+
 ---
 
 ## 복습 노트
