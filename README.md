@@ -368,6 +368,12 @@
 | 11662 | [notes/2026-08-03-삼분탐색-Ternary-Search.md](notes/2026-08-03-삼분탐색-Ternary-Search.md) | 민식이의 여행 (거리 볼록함수, 실수 삼분탐색, O(200)) |
 | 8986 | [notes/2026-08-03-삼분탐색-Ternary-Search.md](notes/2026-08-03-삼분탐색-Ternary-Search.md) | 전봇대 (합 볼록, d 삼분탐색, O(200·N)) |
 
+### 리 차오 트리 (Li Chao Tree)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 12795 | [notes/2026-08-04-리차오트리-LiChaoTree.md](notes/2026-08-04-리차오트리-LiChaoTree.md) | 반평면 땅따먹기 (임의 순서 직선 삽입·최댓값 질의, O(Q log X)) |
+| 13263 | [notes/2026-08-04-리차오트리-LiChaoTree.md](notes/2026-08-04-리차오트리-LiChaoTree.md) | 나무 자르기 (선형 전이 DP 최적화, CHT 대체) |
+
 ---
 
 ## 복습 노트
