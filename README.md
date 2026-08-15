@@ -435,6 +435,12 @@
 | 14216 | [notes/2026-08-14-헝가리안-최적할당-Kuhn-Munkres.md](notes/2026-08-14-헝가리안-최적할당-Kuhn-Munkres.md) | 최소 비용 1:1 배정 (가중치 완전 이분매칭) |
 | 잠재값 쌍대성 | [notes/2026-08-14-헝가리안-최적할당-Kuhn-Munkres.md](notes/2026-08-14-헝가리안-최적할당-Kuhn-Munkres.md) | u[i]+v[j]≤cost 불변식 + 동등그래프 증가경로 |
 
+### 머지 소트 트리 (Merge Sort Tree, 구간 카운트/순위 O(log²n))
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 13537 | [notes/2026-08-15-머지소트트리-Merge-Sort-Tree.md](notes/2026-08-15-머지소트트리-Merge-Sort-Tree.md) | 수열과 쿼리 1 (구간 내 x 초과 개수) |
+| 7469 | [notes/2026-08-15-머지소트트리-Merge-Sort-Tree.md](notes/2026-08-15-머지소트트리-Merge-Sort-Tree.md) | K번째 수 (값 이분탐색 + 구간 이하 개수) |
+
 ---
 
 ## 복습 노트
