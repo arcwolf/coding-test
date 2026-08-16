@@ -441,6 +441,12 @@
 | 13537 | [notes/2026-08-15-머지소트트리-Merge-Sort-Tree.md](notes/2026-08-15-머지소트트리-Merge-Sort-Tree.md) | 수열과 쿼리 1 (구간 내 x 초과 개수) |
 | 7469 | [notes/2026-08-15-머지소트트리-Merge-Sort-Tree.md](notes/2026-08-15-머지소트트리-Merge-Sort-Tree.md) | K번째 수 (값 이분탐색 + 구간 이하 개수) |
 
+### 트립 (Treap / Cartesian Tree, Merge–Split 균형 BST + 암묵적 트립)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 13159 | [notes/2026-08-16-트립-Treap-암묵적트립.md](notes/2026-08-16-트립-Treap-암묵적트립.md) | 배열 (암묵적 트립: 구간 뒤집기/이동 + min/max/sum) |
+| kth/rank | [notes/2026-08-16-트립-Treap-암묵적트립.md](notes/2026-08-16-트립-Treap-암묵적트립.md) | 랜덤 우선순위 + merge/split, 기대 O(log n) |
+
 ---
 
 ## 복습 노트
