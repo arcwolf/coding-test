@@ -447,6 +447,12 @@
 | 13159 | [notes/2026-08-16-트립-Treap-암묵적트립.md](notes/2026-08-16-트립-Treap-암묵적트립.md) | 배열 (암묵적 트립: 구간 뒤집기/이동 + min/max/sum) |
 | kth/rank | [notes/2026-08-16-트립-Treap-암묵적트립.md](notes/2026-08-16-트립-Treap-암묵적트립.md) | 랜덤 우선순위 + merge/split, 기대 O(log n) |
 
+### 링크컷 트리 (Link-Cut Tree, 동적 트리)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| link/cut | [notes/2026-08-17-링크컷트리-LinkCutTree.md](notes/2026-08-17-링크컷트리-LinkCutTree.md) | 동적 포레스트 경로합·연결성 (access 기반, 상각 O(log n)) |
+| MSF | [notes/2026-08-17-링크컷트리-LinkCutTree.md](notes/2026-08-17-링크컷트리-LinkCutTree.md) | 경로 최대간선 교체 → 온라인 최소 스패닝 포레스트 |
+
 ---
 
 ## 복습 노트
