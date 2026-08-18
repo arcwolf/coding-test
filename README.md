@@ -453,6 +453,12 @@
 | link/cut | [notes/2026-08-17-링크컷트리-LinkCutTree.md](notes/2026-08-17-링크컷트리-LinkCutTree.md) | 동적 포레스트 경로합·연결성 (access 기반, 상각 O(log n)) |
 | MSF | [notes/2026-08-17-링크컷트리-LinkCutTree.md](notes/2026-08-17-링크컷트리-LinkCutTree.md) | 경로 최대간선 교체 → 온라인 최소 스패닝 포레스트 |
 
+### 접미사 오토마톤 (Suffix Automaton / SAM, 부분 문자열 DFA)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| distinct | [notes/2026-08-18-접미사오토마톤-SuffixAutomaton.md](notes/2026-08-18-접미사오토마톤-SuffixAutomaton.md) | 서로 다른 부분 문자열 개수 (Σ len[v]−len[link[v]], O(n)) |
+| LCS | [notes/2026-08-18-접미사오토마톤-SuffixAutomaton.md](notes/2026-08-18-접미사오토마톤-SuffixAutomaton.md) | 두 문자열 최장 공통 부분 문자열 (SAM 위 걷기, O(|s|+|t|)) |
+
 ---
 
 ## 복습 노트
