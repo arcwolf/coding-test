@@ -459,6 +459,12 @@
 | distinct | [notes/2026-08-18-접미사오토마톤-SuffixAutomaton.md](notes/2026-08-18-접미사오토마톤-SuffixAutomaton.md) | 서로 다른 부분 문자열 개수 (Σ len[v]−len[link[v]], O(n)) |
 | LCS | [notes/2026-08-18-접미사오토마톤-SuffixAutomaton.md](notes/2026-08-18-접미사오토마톤-SuffixAutomaton.md) | 두 문자열 최장 공통 부분 문자열 (SAM 위 걷기, O(|s|+|t|)) |
 
+### 슬로프 트릭 (Slope Trick, 볼록 조각별 선형 DP 최적화)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 13323 | [notes/2026-08-19-슬로프트릭-Slope-Trick.md](notes/2026-08-19-슬로프트릭-Slope-Trick.md) | 비감소 수열 만들기 최소 비용 (breakpoint 힙, O(n log n)) |
+| Fireworks | [notes/2026-08-19-슬로프트릭-Slope-Trick.md](notes/2026-08-19-슬로프트릭-Slope-Trick.md) | APIO 2016, 트리 DP + 힙 병합(small-to-large) |
+
 ---
 
 ## 복습 노트
