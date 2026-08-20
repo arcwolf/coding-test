@@ -465,6 +465,12 @@
 | 13323 | [notes/2026-08-19-슬로프트릭-Slope-Trick.md](notes/2026-08-19-슬로프트릭-Slope-Trick.md) | 비감소 수열 만들기 최소 비용 (breakpoint 힙, O(n log n)) |
 | Fireworks | [notes/2026-08-19-슬로프트릭-Slope-Trick.md](notes/2026-08-19-슬로프트릭-Slope-Trick.md) | APIO 2016, 트리 DP + 힙 병합(small-to-large) |
 
+### 스테이너 트리 (Steiner Tree, 부분집합 DP)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 터미널 연결 | [notes/2026-08-20-스테이너트리-SteinerTree.md](notes/2026-08-20-스테이너트리-SteinerTree.md) | k개 터미널 최소 비용 트리 (dp[mask][v], O(3^k·V + 2^k·E log V)) |
+| 그리드 변형 | [notes/2026-08-20-스테이너트리-SteinerTree.md](notes/2026-08-20-스테이너트리-SteinerTree.md) | 격자 칸 연결 (부분집합 병합 + 다익스트라, 스테이너 점 경유 이득) |
+
 ---
 
 ## 복습 노트
