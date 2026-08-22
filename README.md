@@ -477,6 +477,12 @@
 | k개 구간 분할 | [notes/2026-08-21-앨리언스트릭-WQS이분탐색.md](notes/2026-08-21-앨리언스트릭-WQS이분탐색.md) | "정확히 k개" 제약 → 그룹당 λ 벌점 + λ 이분탐색, O(자유DP·log) |
 | Aliens (IOI 2016) | [notes/2026-08-21-앨리언스트릭-WQS이분탐색.md](notes/2026-08-21-앨리언스트릭-WQS이분탐색.md) | 정확히 k개 정사각형 덮기 (자유 DP를 CHT로 O(N log N·log)) |
 
+### 병렬 이분탐색 (Parallel Binary Search, 오프라인 다중 이분탐색)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 8217 | [notes/2026-08-22-병렬이분탐색-ParallelBinarySearch.md](notes/2026-08-22-병렬이분탐색-ParallelBinarySearch.md) | 유성 (나라별 필요량 채우는 첫 유성우, 구간덧셈 BIT + PBS, O((N+K)logNlogK)) |
+| 1396 | [notes/2026-08-22-병렬이분탐색-ParallelBinarySearch.md](notes/2026-08-22-병렬이분탐색-ParallelBinarySearch.md) | 크루스칼의 공 (두 정점 연결 최소 간선, 유니온파인드 + PBS) |
+
 ---
 
 ## 복습 노트
