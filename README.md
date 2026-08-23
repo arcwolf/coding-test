@@ -483,6 +483,12 @@
 | 8217 | [notes/2026-08-22-병렬이분탐색-ParallelBinarySearch.md](notes/2026-08-22-병렬이분탐색-ParallelBinarySearch.md) | 유성 (나라별 필요량 채우는 첫 유성우, 구간덧셈 BIT + PBS, O((N+K)logNlogK)) |
 | 1396 | [notes/2026-08-22-병렬이분탐색-ParallelBinarySearch.md](notes/2026-08-22-병렬이분탐색-ParallelBinarySearch.md) | 크루스칼의 공 (두 정점 연결 최소 간선, 유니온파인드 + PBS) |
 
+### 세그먼트 트리 비츠 (Segment Tree Beats, 구간 chmin/chmax)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 17474 | [notes/2026-08-23-세그먼트트리비츠-SegmentTreeBeats.md](notes/2026-08-23-세그먼트트리비츠-SegmentTreeBeats.md) | 수열과 쿼리 26 (구간 chmin + 구간 합/최댓값, (mx,mx2,cnt) 3분기, 분할상환 O(log²N)) |
+| 17476 | [notes/2026-08-23-세그먼트트리비츠-SegmentTreeBeats.md](notes/2026-08-23-세그먼트트리비츠-SegmentTreeBeats.md) | 수열과 쿼리 (chmin + chmax + 합, 최댓값·최솟값 정보 대칭 유지) |
+
 ---
 
 ## 복습 노트
