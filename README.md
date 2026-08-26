@@ -501,6 +501,12 @@
 | 개념 | [notes/2026-08-25-라그랑주보간법-Lagrange-Interpolation.md](notes/2026-08-25-라그랑주보간법-Lagrange-Interpolation.md) | 점 집합으로 다항식 복원·평가, 일반 O(N²) / 연속 정수점 O(N), 모듈러 역원 |
 | 응용 | [notes/2026-08-25-라그랑주보간법-Lagrange-Interpolation.md](notes/2026-08-25-라그랑주보간법-Lagrange-Interpolation.md) | 거듭제곱 합 Σi^k (k+1차 다항식, k+2점 보간), 다항식형 DP 값 건너뛰기 |
 
+### 회문 트리 (Eertree / Palindromic Tree, 모든 서로 다른 회문 O(N) 관리)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 개념 | [notes/2026-08-26-회문트리-Eertree-PalindromicTree.md](notes/2026-08-26-회문트리-Eertree-PalindromicTree.md) | 서로 다른 회문 최대 N개 → 노드 O(N), 가상 루트 len=-1 트릭, 삽입 분할상환 O(N) |
+| 응용 | [notes/2026-08-26-회문트리-Eertree-PalindromicTree.md](notes/2026-08-26-회문트리-Eertree-PalindromicTree.md) | 서로 다른 회문 개수(노드−2) / 각 회문 등장 횟수(접미사 링크 역순 전파) |
+
 ---
 
 ## 복습 노트
