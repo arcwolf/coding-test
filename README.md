@@ -507,6 +507,12 @@
 | 개념 | [notes/2026-08-26-회문트리-Eertree-PalindromicTree.md](notes/2026-08-26-회문트리-Eertree-PalindromicTree.md) | 서로 다른 회문 최대 N개 → 노드 O(N), 가상 루트 len=-1 트릭, 삽입 분할상환 O(N) |
 | 응용 | [notes/2026-08-26-회문트리-Eertree-PalindromicTree.md](notes/2026-08-26-회문트리-Eertree-PalindromicTree.md) | 서로 다른 회문 개수(노드−2) / 각 회문 등장 횟수(접미사 링크 역순 전파) |
 
+### 스토어-바그너 전역 최소 컷 (Stoer-Wagner Global Min Cut, s·t 미지정 무방향)
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 개념 | [notes/2026-08-27-스토어바그너-전역최소컷.md](notes/2026-08-27-스토어바그너-전역최소컷.md) | 최대 인접성 순서로 phase마다 최소 s-t 컷 확정 후 두 정점 축약, O(V³), 무방향·비음 가중치 전용 |
+| 응용 | [notes/2026-08-27-스토어바그너-전역최소컷.md](notes/2026-08-27-스토어바그너-전역최소컷.md) | cut-of-the-phase=마지막 정점 dist, 다중간선 합산, s·t 고정이면 최대유량이 정답 |
+
 ---
 
 ## 복습 노트
