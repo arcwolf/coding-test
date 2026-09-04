@@ -555,6 +555,12 @@
 | 개념 | [notes/2026-09-03-일반그래프최대매칭-블로섬-Edmonds.md](notes/2026-09-03-일반그래프최대매칭-블로섬-Edmonds.md) | 비이분 무방향 그래프 최대 매칭, outer–outer 간선=홀수 사이클(blossom) 수축→증가 경로 |
 | 개념 | [notes/2026-09-03-일반그래프최대매칭-블로섬-Edmonds.md](notes/2026-09-03-일반그래프최대매칭-블로섬-Edmonds.md) | LCA base로 블로섬 수축, Berge 정리로 증가 경로 반복, O(V³) — 이분매칭이 못 푸는 영역 |
 
+### 웨이블릿 트리 (Wavelet Tree) — 정적 배열 구간 k번째 수
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 7469 | [notes/2026-09-04-웨이블릿트리-WaveletTree.md](notes/2026-09-04-웨이블릿트리-WaveletTree.md) | K번째 수 — 값 범위 이분 분할 + map_left prefix로 구간 k번째, O(log C) |
+| 개념 | [notes/2026-09-04-웨이블릿트리-WaveletTree.md](notes/2026-09-04-웨이블릿트리-WaveletTree.md) | 안정 분할로 구간이 자식에서 연속 유지, lte(구간 x이하 개수)로 순위·값범위 카운트 확장 |
+
 ---
 
 ## 복습 노트
