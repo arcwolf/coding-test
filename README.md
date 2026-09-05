@@ -561,6 +561,12 @@
 | 7469 | [notes/2026-09-04-웨이블릿트리-WaveletTree.md](notes/2026-09-04-웨이블릿트리-WaveletTree.md) | K번째 수 — 값 범위 이분 분할 + map_left prefix로 구간 k번째, O(log C) |
 | 개념 | [notes/2026-09-04-웨이블릿트리-WaveletTree.md](notes/2026-09-04-웨이블릿트리-WaveletTree.md) | 안정 분할로 구간이 자식에서 연속 유지, lte(구간 x이하 개수)로 순위·값범위 카운트 확장 |
 
+### 가상 트리 (Virtual Tree / Auxiliary Tree) — 핵심 정점만 압축한 트리
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 개념 | [notes/2026-09-05-가상트리-VirtualTree.md](notes/2026-09-05-가상트리-VirtualTree.md) | key 정점 S + tin 인접쌍 LCA → tin 정렬 → 모노톤 스택으로 O(\|S\|) 트리 압축 |
+| 개념 | [notes/2026-09-05-가상트리-VirtualTree.md](notes/2026-09-05-가상트리-VirtualTree.md) | ΣS 작을 때 쿼리당 O(\|S\| log N), 소모전(War of Attrition) 트리 DP로 최소 절단 비용 |
+
 ---
 
 ## 복습 노트
