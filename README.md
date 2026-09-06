@@ -567,6 +567,12 @@
 | 개념 | [notes/2026-09-05-가상트리-VirtualTree.md](notes/2026-09-05-가상트리-VirtualTree.md) | key 정점 S + tin 인접쌍 LCA → tin 정렬 → 모노톤 스택으로 O(\|S\|) 트리 압축 |
 | 개념 | [notes/2026-09-05-가상트리-VirtualTree.md](notes/2026-09-05-가상트리-VirtualTree.md) | ΣS 작을 때 쿼리당 O(\|S\| log N), 소모전(War of Attrition) 트리 DP로 최소 절단 비용 |
 
+### 최소 외접원 · Welzl (Minimum Enclosing Circle, 기대 O(n))
+| 번호 | 노트 | 문제 제목 |
+|------|------|-----------|
+| 2626 | [notes/2026-09-06-최소외접원-Welzl.md](notes/2026-09-06-최소외접원-Welzl.md) | 최소 외접원 — 랜덤 셔플 후 증분, 밖의 점은 경계 support로 고정, 정확해 |
+| 개념 | [notes/2026-09-06-최소외접원-Welzl.md](notes/2026-09-06-최소외접원-Welzl.md) | 최소원은 경계 2~3점으로 결정, 반복형(support 명시)으로 Python 재귀한계 회피 |
+
 ---
 
 ## 복습 노트
